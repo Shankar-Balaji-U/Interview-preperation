@@ -4,9 +4,10 @@ class SumUntilSingleDigit {
 
         System.out.print("Enter a number: ");
         long value = input.nextLong();
+        System.out.print("Result: ", + run(value));
     }
 
-    public long sum(long value) {
+    public long run(long value) {
         while (value > 9) {
             long sum = 0L;
             
